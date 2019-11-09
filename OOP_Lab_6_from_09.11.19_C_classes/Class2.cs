@@ -8,19 +8,20 @@ namespace OOP_Lab_6_from_09._11._19_C_classes
 {
     class Email
     {
-        string adress, ownername;
+        public string adress { get; set; }
+        public string domen { get; set; }
         
         public Email() { }
-       public Email(string adr, string owner)
+       public Email(string adr, string dom)
         {
             adress = adr;
-            ownername = owner;
+            domen = dom;
         }
-       public void SetAdress(string adr) { adress = adr; }
-       public void SetOwner(string owner) { ownername = owner; }
-       public string GetAdress() { return adress; }
-       public string GetOwner() { return ownername; }
-       public string toString() { return adress + " " + ownername; }
+
+        public override string ToString()
+        {
+            return $"{adress}@{domen}";
+        }
     }
 
 }

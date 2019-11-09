@@ -6,30 +6,28 @@ using System.Threading.Tasks;
 
 namespace OOP_Lab_6_from_09._11._19_C_classes
 {
-    class Container
+    class EmailContainer : IEnumerator // вот так вот нельзя
     {
         List <Email> emails;
-        List <Telephone> telephones;
+        //List <Telephone> telephones;
         
-       public Container()
+       public EmailContainer()
         {
             emails = new List<Email>();
-            telephones = new List<Telephone>();
+            //telephones = new List<Telephone>();
         }
-       public Container(List<Email> mail, List<Telephone> phone) 
+       public EmailContainer(List<Email> mail) 
         {
             emails = new List<Email>();
-            telephones = new List<Telephone>();
+            //telephones = new List<Telephone>();
             emails = mail;
-            telephones = phone;
+            //telephones = phone;
         }
        public void AddEmail(Email mail)
         { emails.Add(mail); }
-       public void AddTelephone(Telephone phone)
-        { telephones.Add(phone);}
+       
        public void RemoveEmail(int index)
         { emails.Remove(emails[index]); }
-       public void RemoveTelephone(int index) { telephones.Remove(telephones[index]); }
        public void Sort()
         {
             Email tempmail = new Email();
@@ -38,13 +36,29 @@ namespace OOP_Lab_6_from_09._11._19_C_classes
             {
                 for(int j = 0; j < emails.Count - i - 1; j++)
                 {
-                    if(string.Compare(emails[j].toString(), emails[j + 1].toString()) > 0)
+                    if(string.Compare(emails[j].ToString(), emails[j + 1].ToString()) > 0)
                     {
-
+                        tempmail = emails[j];
+                        emails[j] = emails[j + 1];
+                        emails[j + 1] = tempmail;
                     }
                 
                 }
             }
+            /*for(int i = 0; i < telephones.Count; i++)
+            {
+                for(int j = 0; j < telephones.Count - i - 1; j++)
+                {
+                    if(string.Compare(telephones[j].toString(), telephones[j + 1].toString()) > 0)
+                    {
+                        temptelephone = telephones[j];
+                        telephones[j] = telephones[j + 1];
+                        telephones[j + 1] = temptelephone;
+                    }
+                }
+            }*/
         }
+
     }
+   
 }
