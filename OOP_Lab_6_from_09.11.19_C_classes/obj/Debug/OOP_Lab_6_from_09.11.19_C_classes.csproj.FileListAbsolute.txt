@@ -1,0 +1,7 @@
+C:\Users\Andrey\source\repos\OOP_Lab_6_from_09.11.19_C_classes\OOP_Lab_6_from_09.11.19_C_classes\bin\Debug\OOP_Lab_6_from_09.11.19_C_classes.exe.config
+C:\Users\Andrey\source\repos\OOP_Lab_6_from_09.11.19_C_classes\OOP_Lab_6_from_09.11.19_C_classes\bin\Debug\OOP_Lab_6_from_09.11.19_C_classes.exe
+C:\Users\Andrey\source\repos\OOP_Lab_6_from_09.11.19_C_classes\OOP_Lab_6_from_09.11.19_C_classes\bin\Debug\OOP_Lab_6_from_09.11.19_C_classes.pdb
+C:\Users\Andrey\source\repos\OOP_Lab_6_from_09.11.19_C_classes\OOP_Lab_6_from_09.11.19_C_classes\obj\Debug\OOP_Lab_6_from_09.11.19_C_classes.csprojAssemblyReference.cache
+C:\Users\Andrey\source\repos\OOP_Lab_6_from_09.11.19_C_classes\OOP_Lab_6_from_09.11.19_C_classes\obj\Debug\OOP_Lab_6_from_09.11.19_C_classes.csproj.CoreCompileInputs.cache
+C:\Users\Andrey\source\repos\OOP_Lab_6_from_09.11.19_C_classes\OOP_Lab_6_from_09.11.19_C_classes\obj\Debug\OOP_Lab_6_from_09.11.19_C_classes.exe
+C:\Users\Andrey\source\repos\OOP_Lab_6_from_09.11.19_C_classes\OOP_Lab_6_from_09.11.19_C_classes\obj\Debug\OOP_Lab_6_from_09.11.19_C_classes.pdb
