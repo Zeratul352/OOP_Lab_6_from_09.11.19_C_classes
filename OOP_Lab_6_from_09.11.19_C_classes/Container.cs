@@ -25,7 +25,7 @@ namespace OOP_Lab_6_from_09._11._19_C_classes
         }
        public EmailContainer(List<Email> mail) 
         {
-            emails = new List<Email>();
+            //emails = new List<Email>();
             
             emails = mail;
             
